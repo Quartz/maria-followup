@@ -1,3 +1,11 @@
+# Maria's Dead follow up
+
+Instructions and scripts for adding new cases for the Hurricane Maria project. The existing databases live at:
+
+https://hurricanemariadead.com/
+
+https://losmuertosdemaria.com/
+
 Latest data updated on *August 30, 2018*
 
 ## Adding new cases
