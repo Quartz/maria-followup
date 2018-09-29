@@ -34,17 +34,18 @@ Run `getBitacoras.R`
 
 ### 3. Get information from bitacoras
 
-Reporters make phone calls using the bitacoras in the folder `bitacoras/Empty/` and gather the filled-out bitacoras to the folder `bitacoras/Filled/`
+Inform reporters(?) make phone calls using the bitacoras in the folder `bitacoras/Empty/` and gather the filled-out bitacoras to the folder `bitacoras/Filled/`
 
 Then run script `processBitacoras.R` 
 
 
 ### 4. Copy edits and translation
 
-Use the file `output/new_cases_copy.xlsx` for copy edits and translation.
+Send the file file `output/new_cases_copy.xlsx` to (?)(CPI & AP) for copy edits and translation.
 
 * Spanish copy editing for column `text_field_es`
 * Translate the column `text_field_es` to column `text_field_en` and copy edit `text_field_en`
+* The person who does copy edits should also do a general additional verification to make sure qualtitative information in `text_field` matches other basic info, such as gender (as inferred from name), clinical cause of death, mechanism of death, age, etc, and make corrections or flag cases accordingly. 
 * Save and replace the exising `output/new_cases_copy.xlsx`
 
 ### 5. Merge it back into the database
@@ -52,3 +53,5 @@ Use the file `output/new_cases_copy.xlsx` for copy edits and translation.
 Run `merge.R`
 
 ### 6. Submit pull request
+
+
