@@ -22,10 +22,9 @@ If you don't have permission, ask Ana Campoy, Omaya Sosa, or Larry Fenn to help.
 
  `File > Download as ... > Microsoft Excel(.xlsx)` 
  
-* Find the lastest case (by timestamp) in `data/Las víctimas de María (Responses).xlsx` and delete all the cases up to that one in the spreadsheet you just downloaded. Save it.
+* Delete all the cases in the spreadsheet up to the *Last Updated* date at the top of this Readme document you just downloaded. Save it.
 
-* Replace the file `data/Las víctimas de María (Responses).xlsx` with the one you downloaded and newly saved.
-
+* Put the newly-saved file into the `data` folder: `data/Las víctimas de María (Responses).xlsx`.
 
 
 ### 2. Generate bitacoras
