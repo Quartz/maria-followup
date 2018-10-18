@@ -33,19 +33,23 @@ Run `getBitacoras.R`
 
 ### 3. Get information from bitacoras
 
-Inform reporters(?) make phone calls using the bitacoras in the folder `bitacoras/Empty/` and gather the filled-out bitacoras to the folder `bitacoras/Filled/`
+- Inform Laura Candelas (CPI), who will coordinate verification phone calls using the bitacoras in the folder `bitacoras/Empty/` 
+- Gather only the complete bitacoras to the folder `bitacoras/Filled/`
 
-Then run script `processBitacoras.R` 
+- Run script `processBitacoras.R` 
 
 
 ### 4. Copy edits and translation
 
-Send the file file `output/new_cases_copy.xlsx` to (?)(CPI & AP) for copy edits and translation.
+Send the file file `data/forProcess/for_translation_copyedits.xlsx` to Laura and Ezequiel for copy edits and translation. They need to do three things:
 
-* Spanish copy editing for column `text_field_es`
-* Translate the column `text_field_es` to column `text_field_en` and copy edit `text_field_en`
-* The person who does copy edits should also do a general additional verification to make sure qualtitative information in `text_field` matches other basic info, such as gender (as inferred from name), clinical cause of death, mechanism of death, age, etc, and make corrections or flag cases accordingly. 
-* Save and replace the exising `output/new_cases_copy.xlsx`
+* Spanish copy editing for column `text_field_es` (Laura)
+* Translate the column `text_field_es` to column `text_field_en` and copy edit `text_field_en` (Ezequiel)
+* Translate the column `causes_en` to column `causes_es` (Laura)
+
+(The person who does copy edits should also do a general additional verification to make sure qualtitative information in `text_field` matches other basic info, such as gender (as inferred from name), clinical cause of death, mechanism of death, age, etc, and make corrections or flag cases accordingly. )
+
+When getting back the file, please save it and replace the exising `data/forProcess/for_translation_copyedits.xlsx`
 
 ### 5. Merge it back into the database
 
