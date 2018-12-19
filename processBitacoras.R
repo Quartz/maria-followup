@@ -321,6 +321,8 @@ basic %>%
     select(id, name, DateOfDeath, causes_en, causes_es, text_field_en, text_field_es) %>%
     write.xlsx('data/forProcess/for_translation_copyedits.xlsx',row.names=F)
     
+basic %>%
+  write.xlsx('data/forProcess/rest_for_merge.xlsx',row.names=F)
 
 
 ## ~~~ copy edits and translation

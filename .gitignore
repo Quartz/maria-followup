@@ -1,6 +1,7 @@
 .DS_Store
 */.DS_Store
 data/forProcess/*.xlsx
+data/forProcess/*.csv
 data/Las víctimas de María (Responses).xlsx
 /process_script
 /bitacoras/Empty

@@ -6,7 +6,11 @@ https://hurricanemariadead.com/
 
 https://losmuertosdemaria.com/
 
-Latest data updated on *August 30, 2018*
+### Recent updates:
+
+Latest data updated on *Dec. 19, 2018*, **504 cases**
+
+*August 30*, 2018, **487 cases**
 
 ## Adding new cases
 
